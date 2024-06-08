@@ -83,4 +83,11 @@ h2 {
   font-size: 3em;
   color: white;
   text-align: center;
+}
+
+.apropos_img {
+  border-radius: 30px;
+  margin: 50px 0;
+  background: url(../../assets/images/kalen.png) center/cover;
+  height: 280px;
 }/*# sourceMappingURL=index.css.map */
