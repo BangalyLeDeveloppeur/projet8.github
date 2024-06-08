@@ -1,5 +1,13 @@
 .navigation {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+ 
   ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     .nav-active {
       position: relative;
 
@@ -7,9 +15,9 @@
         content: "";
         height: 4px;
         width: 0;
-        background: $color-1;
         position: absolute;
         border-radius: 10px;
+        background-color: red;
         bottom: 0px;
         left: 50%;
         transform: translateX(-50%);
