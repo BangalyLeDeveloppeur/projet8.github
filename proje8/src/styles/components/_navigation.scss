@@ -1,8 +1,7 @@
 .navigation {
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
- 
+
   ul {
     display: flex;
     justify-content: center;
@@ -17,7 +16,7 @@
         width: 0;
         position: absolute;
         border-radius: 10px;
-        background-color: red;
+        background-color: black;
         bottom: 0px;
         left: 50%;
         transform: translateX(-50%);

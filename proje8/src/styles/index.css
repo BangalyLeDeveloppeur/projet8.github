@@ -44,7 +44,7 @@ li {
   width: 0;
   position: absolute;
   border-radius: 10px;
-  background-color: red;
+  background-color: black;
   bottom: 0px;
   left: 50%;
   -webkit-transform: translateX(-50%);
