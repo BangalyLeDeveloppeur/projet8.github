@@ -3,7 +3,7 @@ import React from "react";
 const Description = () => {
   return (
     <div>
-      <section>
+      <section className="annonce">
         <div className="description">
           <h3>Fiabilité</h3>
           <img src="./arrow.png" alt="image fiabilité" />
