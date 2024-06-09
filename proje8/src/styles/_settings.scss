@@ -3,7 +3,7 @@
   src: url(../assets/fonts/Inter-Medium.ttf);
 }
 
-$font-1: "font-1", sans-serif;
+$font-1: "font-1",sans-serif;
 
 $color-1: #61dafb;
 $color-2: salmon;
@@ -19,13 +19,12 @@ $white: rgb(255, 255, 255);
 * {
   padding: 5px;
   margin: 0;
-
 }
 
 body {
   background: $white;
   font-family: $font-1;
-  a{
+  a {
     text-decoration: none;
   }
 }
