@@ -5,7 +5,7 @@ const Description = () => {
     <div>
       <div className="annonce">
         <div className="description">
-          <h3>Fiabilité</h3>
+          <h2>Fiabilité</h2>
           <img src="./arrow.png" alt="image fiabilité" />
         </div>
         <p>
@@ -16,7 +16,7 @@ const Description = () => {
       </div>
       <div className="annonce">
         <div className="description">
-          <h3>Respect</h3>
+          <h2>Respect</h2>
           <img src="./arrow.png" alt="image fiabilité" />
         </div>
         <p>
@@ -27,7 +27,7 @@ const Description = () => {
       </div>
       <div className="annonce">
         <div className="description">
-          <h3>Service</h3>
+          <h2>Service</h2>
           <img src="./arrow.png" alt="image fiabilité" />
         </div>
         <p>
@@ -38,7 +38,7 @@ const Description = () => {
       </div>
       <div className="annonce">
         <div className="description">
-          <h3>Sécurité</h3>
+          <h2>Sécurité</h2>
           <img src="./arrow.png" alt="image fiabilité" />
         </div>
         <p>
