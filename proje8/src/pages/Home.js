@@ -1,16 +1,26 @@
-import React from 'react';
-import Navigation from '../components/Navigation';
-import Partout from '../components/Partout';
-import Footer from '../components/Footer';
+import React from "react";
+import Navigation from "../components/Navigation";
+import Partout from "../components/Partout";
+import Footer from "../components/Footer";
+import Cadre from "../components/Cadre";
+import livres  from "../data/livres.json"
+
 
 const Home = () => {
-    return (
-        <div>
-            <Navigation />
-            <Partout /> 
-            <Footer /> 
-        </div>
-    );
+
+    console.log(livres)
+
+  return (
+    <div>
+      <Navigation />
+      <Partout />
+      <div className="gallery">
+      < Cadre livres=  {livres} />
+     
+      <Footer />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
