@@ -17,8 +17,8 @@ const Home = () => {
       <div className="gallery">
       < Cadre livres=  {livres} />
      
-      <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
