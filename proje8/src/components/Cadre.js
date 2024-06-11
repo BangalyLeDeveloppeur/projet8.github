@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Cadre = ({ livres }) => {
-  return livres.slice(0, 6).map((livre) => (
-    <div className="" key={livre.id}>
-      <img src={livre.cover} alt={livre.title} />
-      <h4>{livre.title}</h4>
-    </div>
+  return livres.slice(0, 6).map((Logement) => (
+    <Link to={`/Logement/${Logement.id}`} key={Logement.id}>
+      <img src={Logement.cover} alt={Logement.title} />
+      <h4>{Logement.title}</h4>
+    </Link>
   ));
 };
 Cadre.propTypes = {
