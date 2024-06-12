@@ -13,15 +13,18 @@ const Logement = () => {
   const pictures = logement.pictures;
   return (
     <div>
-      <Navigation/>
+      <Navigation />
       {pictures.slice(0, 1).map((pictures, index) => {
         return (
           <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-          );
-          })}
+        );
+      })}
       <p>Voici le logoment avec id {id} </p>
       <p>Voici la description {logement.description} </p>
-        <Footer />
+      <p> {logement.equipments} </p>
+      <p> {logement.location} </p>
+
+      <Footer />
     </div>
   );
 };
