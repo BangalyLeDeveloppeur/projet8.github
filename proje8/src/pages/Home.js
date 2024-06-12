@@ -16,7 +16,7 @@ const Home = () => {
       <Partout />
       <div className="gallery">
       < Cadre livres=  {livres} />
-     
+      
       </div>
       <Footer />
     </div>

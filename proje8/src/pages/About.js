@@ -9,8 +9,8 @@ const About = () => {
     <div>
       <Navigation />
       <Photapropos />
-      < Description/>
-      < Footer/>
+      <Description />
+      <Footer />
     </div>
   );
 };
