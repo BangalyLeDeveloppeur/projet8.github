@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
+        {/* image du log*/}
       <img src="./logo.png" alt="Image du logo" />
       <ul>
         <NavLink

@@ -17,8 +17,13 @@ const Logement = () => {
       {pictures.slice(0, 1).map((pictures, index) => {
         return (
           <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-        );
-      })}
+          );
+          })}
+          <div>
+        <img src="./arrow.png" alt="image arrow" />
+        <img src="./arrow.png" alt="image arrow" />
+          </div>
+        
       <p>Voici le logoment avec id {id} </p>
       <p>Voici la description {logement.description} </p>
       <p> {logement.equipments} </p>
