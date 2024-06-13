@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Error from "./pages/Error";
-import Logement from "./components/Logement";
+import Appartement from "./pages/Appartement";
 
 const App = () => {
   return (
@@ -15,7 +15,8 @@ const App = () => {
         {/* La route pour la page d'erreur */}
         <Route path="/*" element={<Error />} />{" "}
         {/* la route pour ajouter id logement dans URL*/}
-        <Route path="/Logement/:id" element={<Logement />} />
+        <Route path="/Logement/:id" element={<Appartement />} />
+        
       </Routes>
     </BrowserRouter>
   );

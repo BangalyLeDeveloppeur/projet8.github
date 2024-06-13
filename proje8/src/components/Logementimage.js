@@ -1,7 +1,5 @@
 import { useParams } from "react-router-dom";
 import livres from "../data/livres.json";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
 
 const findlLivreID = (id) => {
   return livres.find((Logement) => Logement.id === id);
@@ -13,23 +11,18 @@ const Logement = () => {
   const pictures = logement.pictures;
   return (
     <div>
-      <Navigation />
       {pictures.slice(0, 1).map((pictures, index) => {
         return (
           <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-          );
-          })}
-          <div>
-        <img src="./arrow.png" alt="image arrow" />
-        <img src="./arrow.png" alt="image arrow" />
-          </div>
-        
+        );
+      })}
+      <img src="./arrow.png" alt="image arrow" />
+      <img src="./arrow.png" alt="image arrow" />
+      
       <p>Voici le logoment avec id {id} </p>
       <p>Voici la description {logement.description} </p>
       <p> {logement.equipments} </p>
       <p> {logement.location} </p>
-
-      <Footer />
     </div>
   );
 };
