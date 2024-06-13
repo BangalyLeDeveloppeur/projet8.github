@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import Logement from '../components/Logementimage';
 import Logementtitle from '../components/Logementtitle';
 import Tag from '../components/Tag';
+import Logementhost from '../components/Logementhost';
 
 
 const Appartement = () => {
@@ -12,6 +13,7 @@ const Appartement = () => {
            <Logement />
            <Logementtitle />
            <Tag />
+           <Logementhost />
         </div>
     );
 };
