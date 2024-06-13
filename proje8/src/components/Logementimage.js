@@ -18,9 +18,9 @@ const Logement = () => {
       })}
       <img src="./arrow.png" alt="image arrow" />
       <img src="./arrow.png" alt="image arrow" />
-      
+
       <p>Voici le logoment avec id {id} </p>
-      <p>Voici la description {logement.description} </p>
+      
       <p> {logement.equipments} </p>
       <p> {logement.location} </p>
     </div>

@@ -6,6 +6,7 @@ import Tag from '../components/Tag';
 import Logementhost from '../components/Logementhost';
 
 
+
 const Appartement = () => {
     return (
         <div>
@@ -14,6 +15,7 @@ const Appartement = () => {
            <Logementtitle />
            <Tag />
            <Logementhost />
+         
         </div>
     );
 };
