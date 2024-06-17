@@ -10,13 +10,15 @@ const Logement = ({logement}) => {
 
   return (
     <div>
+      <div className="loge-img">
       {pictures?.slice(0, 1).map((pictures, index) => {
         return (
           <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-        );
-      })}
+          );
+          })}
       <img src="./arrow.png" alt="image arrow" />
       <img src="./arrow.png" alt="image arrow" />
+         </div>
 
       <p>Voici le logoment avec id {logement?.id} </p>
       

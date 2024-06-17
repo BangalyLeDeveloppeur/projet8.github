@@ -4,14 +4,17 @@
   gap: 20px;
   padding: 30px;
   background: rgb(246, 246, 246);
- 
+
   border-radius: 20px;
   img {
     width: 100%;
-    height: 80%;
+    height: 86%;
     border-radius: 20px;
   }
-  h4{
-    color: black;
+  h4 {
+    margin-top: -70px;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
   }
 }
