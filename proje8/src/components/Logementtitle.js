@@ -4,8 +4,8 @@ const Logementtitle = () => {
     return (
         <div>
             <div>
-                <h2>Cozy loft on the Canal Saint-Martin</h2>
-                <p>Paris, Île-de-France</p>
+                <h2 className='logoement-title'>Cozy loft on the Canal Saint-Martin</h2>
+                <p className='logement-ville'>Paris, Île-de-France</p>
             </div>
             
         </div>
