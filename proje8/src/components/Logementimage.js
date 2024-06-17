@@ -18,7 +18,7 @@ const Logement = ({ logement }) => {
             <i class="fa-solid fa-chevron-up"></i>
           </span>
           <span>
-            <i class="fa-solid fa-chevron-up"></i>
+          <i class="fa-solid fa-chevron-right chevron-droite"></i>
           </span>
         </div>
       </div>
