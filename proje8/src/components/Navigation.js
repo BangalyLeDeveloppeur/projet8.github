@@ -1,11 +1,12 @@
+import { formToJSON } from "axios";
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import logo from "../assets/images/logo.png"
 const Navigation = () => {
   return (
     <div className="navigation">
         {/* image du log*/}
-      <img src="./logo.png" alt="Image du logo" />
+      <img src={logo} alt="Image du logo" />
       <ul>
         <NavLink
           to="/"
