@@ -6,7 +6,7 @@ const Description = () => {
       <div className="annonce">
         <div className="description">
           <h2>Fiabilité</h2>
-         <span><i class="fa-solid fa-chevron-up"></i></span>
+         <span><i className="fa-solid fa-chevron-up"></i></span>
         </div>
         <p>
           Les annonces postées sur kasa garantissent une fiabilité totale. Les
@@ -17,7 +17,7 @@ const Description = () => {
       <div className="annonce">
         <div className="description">
           <h2>Respect</h2>
-          <span><i class="fa-solid fa-chevron-up"></i></span>
+          <span><i className="fa-solid fa-chevron-up"></i></span>
         </div>
         <p>
           La bienveillance fait partie des valeurs fondactrices de kasa. Tout
@@ -28,7 +28,7 @@ const Description = () => {
       <div className="annonce">
         <div className="description">
           <h2>Service</h2>
-          <span><i class="fa-solid fa-chevron-up"></i></span>
+          <span><i className="fa-solid fa-chevron-up"></i></span>
         </div>
         <p>
           La bienveillance fait partie des valeurs fondactrices de kasa. Tout
@@ -39,7 +39,7 @@ const Description = () => {
       <div className="annonce">
         <div className="description">
           <h2>Sécurité</h2>
-          <span><i class="fa-solid fa-chevron-up"></i></span>
+          <span><i className="fa-solid fa-chevron-up"></i></span>
         </div>
         <p>
           La sécurité est la priorité de kasa. Aussi bien pour nos hotes que

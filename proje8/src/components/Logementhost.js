@@ -5,15 +5,15 @@ const Logementhost = () => {
         <div>
             <div>
                 <div>
-                    <h>Alexandre
-                    Dumas</h>
-                    <span><i class="fa-solid fa-star"></i></span>
-                    <span><i class="fa-solid fa-star"></i></span>
-                    <span><i class="fa-solid fa-star"></i></span>
-                    <span><i class="fa-regular fa-star"></i></span>
-                    <span><i class="fa-regular fa-star"></i></span>
+                    <h2>Alexandre
+                    Dumas</h2>
+                    <span><i className="fa-solid fa-star"></i></span>
+                    <span><i className="fa-solid fa-star"></i></span>
+                    <span><i className="fa-solid fa-star"></i></span>
+                    <span><i className="fa-regular fa-star"></i></span>
+                    <span><i className="fa-regular fa-star"></i></span>
                 </div>
-                <pan></pan>
+                <span></span>
             </div>
         </div>
     );
