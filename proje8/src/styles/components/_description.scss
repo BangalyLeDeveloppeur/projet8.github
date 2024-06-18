@@ -4,14 +4,25 @@
     align-items: center;
     background: rgb(255, 96, 96);
     margin-left: 10%;
+    height: 32px;
     h2{
        
         font-size: 2em;
         color: white;
         text-align: center;
     }
-   
+   span{
+     color: white;
+     font-size: 2em;
+     cursor: pointer;
+   }
+   span:active {
+     color: white;
+     font-size: 3em;
+     transform: rotate(180deg);
+   }
 }
+
 .annonce{
     p{
         display: none;

@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import livres from "../data/livres.json";
+
 
 const Logement = ({ logement }) => {
   const pictures = logement.pictures;
@@ -22,12 +22,12 @@ const Logement = ({ logement }) => {
           </span>
         </div>
       </div>
-
-      <p>Voici le logoment avec id {logement?.id} </p>
-
-      <p> {logement?.equipments} </p>
-      <p> {logement?.description} </p>
-      <p> {logement?.location} </p>
+      <div className=" ">
+        <p>Voici le logoment avec id {logement?.id} </p>
+        <p> {logement?.equipments} </p>
+        <p> {logement?.description} </p>
+        <p> {logement?.location} </p>
+      </div>
     </div>
   );
 };
