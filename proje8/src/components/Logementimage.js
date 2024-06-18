@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 
-
 const Logement = ({ logement }) => {
   const pictures = logement.pictures;
 
@@ -15,18 +14,12 @@ const Logement = ({ logement }) => {
 
         <div className="logement-arrow">
           <span>
-            <i class="fa-solid fa-chevron-up"></i>
+            <i className="fa-solid fa-chevron-up"></i>
           </span>
           <span>
-            <i class="fa-solid fa-chevron-right chevron-droite"></i>
+            <i className="fa-solid fa-chevron-right chevron-droite"></i>
           </span>
         </div>
-      </div>
-      <div className=" ">
-        <p>Voici le logoment avec id {logement?.id} </p>
-        <p> {logement?.equipments} </p>
-        <p> {logement?.description} </p>
-        <p> {logement?.location} </p>
       </div>
     </div>
   );
