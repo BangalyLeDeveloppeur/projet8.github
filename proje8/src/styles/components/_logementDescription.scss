@@ -1,0 +1,18 @@
+.logementDescription{
+    display: flex;
+    gap: 10px;
+
+}
+.description-contenair {
+    height: 50px;
+    width: 50%;
+    background: red;
+
+    .chevron {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+
+}

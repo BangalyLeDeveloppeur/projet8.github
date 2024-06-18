@@ -9,6 +9,7 @@ import appartements from "../data/livres.json";
 import { useParams } from "react-router-dom";
 import Footer from "../components/Footer";
 
+
 const Appartement = () => {
   const { id } = useParams();
   const [appartement, setAppartement] = useState({});
