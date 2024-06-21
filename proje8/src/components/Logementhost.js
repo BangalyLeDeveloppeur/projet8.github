@@ -5,8 +5,6 @@ const Logementhost = () => {
     <div>
       <div className="hsot">
         
-      </div>
-      <div>
         <span>
           <i className="fa-solid fa-star"></i>
         </span>
@@ -17,10 +15,10 @@ const Logementhost = () => {
           <i className="fa-solid fa-star"></i>
         </span>
         <span>
-          <i className="fa-regular fa-star"></i>
+        <i className="fa-solid fa-star grid"></i>
         </span>
         <span>
-          <i className="fa-regular fa-star"></i>
+        <i className="fa-solid fa-star grid"></i>
         </span>
       </div>
     </div>
