@@ -1,3 +1,19 @@
+.logement{
+    .logement-conteneur{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      grid-template-columns:  80% 10% 10%;
+    h2{
+        color: #FF6060;
+    }
+
+    }
+    .logement-souttitle{
+        width: 180px;
+    }
+}
+
+
 .logoement-title{
     color: rgb(255,96,96);
     font-size: 2em;

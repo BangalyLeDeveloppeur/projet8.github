@@ -7,27 +7,27 @@ const LogementDescription = ({ logement }) => {
       <div className="">
         {pictures?.slice(0, 1).map((pictures, index) => {
           return (
-            <div className=" ">
+            <div className="logemen ">
               <p>Voici le logoment avec id {logement?.id} </p>
               <div className="logementDescription">
                 <div className="description-contenair">
                   <div className="chevron ">
-                      <p>Description</p>
+                    <p>Description</p>
                     <span>
                       <i className="fa-solid fa-chevron-up"></i>
                     </span>
                   </div>
                   <p> {logement?.description} </p>
                 </div>
-                
+
                 <div className="description-contenair">
-                <div className="chevron ">
-                      <p>Equipement</p>
+                  <div className="chevron ">
+                    <p>Equipement</p>
                     <span>
                       <i className="fa-solid fa-chevron-up"></i>
                     </span>
                   </div>
-                  <p> {logement?.equipments} </p>
+                   <li>{logement?.equipments.join(" .")}</li> 
                 </div>
               </div>
             </div>
