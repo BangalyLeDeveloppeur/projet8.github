@@ -2,6 +2,7 @@ import React from "react";
 
 const LogementDescription = ({ logement }) => {
   const pictures = logement.pictures;
+
   return (
     <div>
       <div className="">
@@ -11,23 +12,28 @@ const LogementDescription = ({ logement }) => {
               <p>Voici le logoment avec id {logement?.id} </p>
               <div className="logementDescription">
                 <div className="description-contenair">
-                  <div className="chevron ">
-                    <p>Description</p>
-                    <span>
-                      <i className="fa-solid fa-chevron-up"></i>
-                    </span>
+                  <div className="chevron">
+                    <div className="chevron-conteneur">
+                      <p>Description</p>
+                      <span>
+                        <i className="fa-solid fa-chevron-up"></i>
+                      </span>
+                    </div>
+                    <p> {logement?.description} </p>
                   </div>
-                  <p> {logement?.description} </p>
                 </div>
 
                 <div className="description-contenair">
-                  <div className="chevron ">
-                    <p>Equipement</p>
-                    <span>
-                      <i className="fa-solid fa-chevron-up"></i>
-                    </span>
+                  <div className="chevron">
+                    <div className="chevron-conteneur">
+                      <p>Equipement</p>
+                      <span>
+                        <i className="fa-solid fa-chevron-up"></i>
+                      </span>
+                    </div>
+
+                    <li>{logement?.equipments.join(" .")}</li>
                   </div>
-                   <li>{logement?.equipments.join(" .")}</li> 
                 </div>
               </div>
             </div>
