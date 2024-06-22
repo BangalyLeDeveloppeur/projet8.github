@@ -9,8 +9,9 @@ const Navigation = () => {
       <img src={logo} alt="Image du logo" />
       <ul>
         <NavLink
+        /* Controle de after sur le header*/
           to="/"
-          className={(nav) => (nav.isActive ? "nav-active" : " ")}
+          className={(nav) => (nav.isActive ? "nav-active" : " ")} 
         >
           <li>Accueil</li>
         </NavLink>
