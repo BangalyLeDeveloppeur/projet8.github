@@ -8,6 +8,7 @@ import LogementDescription from "../components/LogementDescription";
 import appartements from "../data/livres.json";
 import { useParams } from "react-router-dom";
 import Footer from "../components/Footer";
+import Nom from "../components/Nom";
 
 
 const Appartement = () => {
@@ -25,6 +26,7 @@ const Appartement = () => {
       <Logement logement={appartement} />
       <Logementtitle />
       <Tag />
+      <Nom/>
       <Logementhost />
       <LogementDescription logement={appartement} />
       <Footer />
