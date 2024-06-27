@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
-import Logement from "../components/Logementimage";
+import Logement from "../components/Slide";
 import Logementtitle from "../components/Logementtitle";
 import Tag from "../components/Tag";
 import Logementhost from "../components/Logementhost";

@@ -1,0 +1,73 @@
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2.3em;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    ul {
+      gap: 15px;
+      li {
+        font-size: 1.06em;
+      }
+    }
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    img {
+      width: 40%;
+    }
+  }
+  .nom {
+    .nom-conteneur {
+      height: 62px;
+      margin-top: 0;
+      width: 31%;
+      .host-cercle {
+        width: 45px;
+        height: 45px;
+        padding: 0;
+      }
+      h2 {
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .hsot {
+    display: flex;
+    justify-content: left;
+    margin-top: -72px;
+    padding: 0;
+    span {
+      padding: 0;
+    }
+  }
+
+  .tag {
+    width: 28%;
+    padding: 0;
+
+    span {
+      font-size: 0.75em;
+    }
+  }
+
+  .logementDescription {
+    flex-direction: column;
+    gap: 25px;
+    .description-contenair {
+      height: 35px;
+      width: 100%;
+      .chevron {
+        padding: 0;
+        p {
+          font-size: 0.75em;
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,13 @@
 import { useParams } from "react-router-dom";
 
-const Logement = ({ logement }) => {
+const Slide = ({ logement }) => {
   const pictures = logement.pictures;
 
   return (
     <div>
+
       <div className="loge-img">
-        {pictures?.slice(0, 1).map((pictures, index) => {
+        {pictures?.map((pictures, index) => {
           return (
             <img src={pictures} alt={pictures.title} key={(pictures, index)} />
           );
@@ -25,4 +26,4 @@ const Logement = ({ logement }) => {
   );
 };
 
-export default Logement;
+export default Slide;
