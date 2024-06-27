@@ -5,14 +5,7 @@ const Slide = ({ logement }) => {
 
   return (
     <div>
-
       <div className="loge-img">
-        {pictures?.map((pictures, index) => {
-          return (
-            <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-          );
-        })}
-
         <div className="logement-arrow">
           <span>
             <i className="fa-solid fa-chevron-up"></i>
@@ -21,6 +14,12 @@ const Slide = ({ logement }) => {
             <i className="fa-solid fa-chevron-right chevron-droite"></i>
           </span>
         </div>
+        {pictures?.map((pictures, index) => {
+          return (
+            <img src={pictures} alt={pictures.title} key={(pictures, index)} />
+          );
+        })}
+
       </div>
     </div>
   );
