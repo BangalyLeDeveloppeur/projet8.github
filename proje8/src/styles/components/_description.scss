@@ -1,32 +1,45 @@
-.description{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgb(255, 96, 96);
-    margin-left: 10%;
-    height: 32px;
-    h2{
-       
-        font-size: 2em;
-        color: white;
-        text-align: center;
-    }
-   span{
-     color: white;
-     font-size: 2em;
-     cursor: pointer;
-   }
-   span:active {
-     color: white;
-     font-size: 3em;
-     transform: rotate(180deg);
-   }
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 96, 96);
+  margin-left: 10%;
+  height: 32px;
+  padding: 0;
+  margin-bottom: 10px;
+  h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+  }
+  button {
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease-out;
+  }
+  button:active {
+    color: white;
+    font-size: 3em;
+    transform: rotate(180deg);
+  }
 }
 
-.annonce{
-    p{
-        display: none;
-        color: rgb(100, 98, 98);
-        font-size: 1.5em;
-    }
+.annonce {
+  margin-left: 10%;
+  height: 30px;
+  margin-bottom: 20px;
+  p {
+    color: rgb(100, 98, 98);
+    font-size: 1.2em;
+  }
+}
+.annonceSecurite {
+  margin-left: 10%;
+  p {
+    color: rgb(100, 98, 98);
+    font-size: 1.2em;
+  }
 }
