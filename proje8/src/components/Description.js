@@ -5,17 +5,6 @@ const Description = () => {
     <div>
       <div className="annonce">
         <div className="description">
-          <h2>Fiabilité</h2>
-         <span><i className="fa-solid fa-chevron-up"></i></span>
-        </div>
-        <p>
-          Les annonces postées sur kasa garantissent une fiabilité totale. Les
-          photos sont conformes aux logements, et toutes les informations sont
-          régulièrement vérifiées par nos équipes.
-        </p>
-      </div>
-      <div className="annonce">
-        <div className="description">
           <h2>Respect</h2>
           <span><i className="fa-solid fa-chevron-up"></i></span>
         </div>

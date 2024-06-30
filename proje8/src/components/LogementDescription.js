@@ -1,4 +1,6 @@
 import React from "react";
+import Collapse from './Collapse'
+
 
 const LogementDescription = ({ logement }) => {
   return (
@@ -9,25 +11,26 @@ const LogementDescription = ({ logement }) => {
           <div className="chevron">
             <div className="chevron-conteneur">
               <p>Description</p>
-              <span>
+              <button>
                 <i className="fa-solid fa-chevron-up"></i>
-              </span>
+              </button>
             </div>
             <p className="chevron-parag"> {logement.description} </p>
           </div>
         </div>
 
-        <div className="description-contenair">
-          <div className="chevron">
-            <div className="chevron-conteneur">
-              <p>Equipement</p>
-              <span>
-                <i className="fa-solid fa-chevron-up"></i>
-              </span>
-            </div>
-            <p className="chevron-parag">{logement.equipments}</p>
-          </div>
-        </div>
+        {logement.equipments && (
+          <Collapse
+            title ={'Equipement'}
+            content ={
+              <ul>
+                {logement['equipments'].map((eq) => (
+                  <li>{eq}</li>
+                ))}
+              </ul>
+            }
+          />
+        )}
       </div>
     </div>
   );
