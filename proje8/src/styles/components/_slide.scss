@@ -13,9 +13,14 @@
     justify-content: space-between;
     position: absolute;
     width: 95%;
+    background: transparent;
     padding: 0;
-    cursor: pointer;
     margin-top: 110px;
+    button {
+      cursor: pointer;
+      background: transparent;
+      border: navajowhite;
+    }
   }
   i {
     font-size: 6em;

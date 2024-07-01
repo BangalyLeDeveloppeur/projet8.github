@@ -9,26 +9,25 @@ const LogementDescription = ({ logement }) => {
         <div className="description-contenair">
           <div className="chevron">
             {logement.description && (
-              <Collapse
-                title={"Description"}
-                content={logement.description}
-              />
+            
+              <Collapse title={"Description"} content= {logement.description} />
             )}
           </div>
         </div>
-
-        {logement.equipments && (
-          <Collapse
-            title ={"Equipement"}
-            content={
-              <ul>
-                {logement["equipments"].map((eq) => (
-                  <li>{eq}</li>
-                ))}
-              </ul>
-            }
-          />
-        )}
+        <div className="description-contenair">
+          {logement.equipments && (
+            <Collapse
+              title={"Equipement"}
+              content={
+                <ul>
+                  {logement ["equipments"].map((eq)  => (
+                    <li key={(eq)}>{eq} </li>
+                  ))}
+                </ul>
+              }
+            />
+          )}
+        </div>
       </div>
     </div>
   );

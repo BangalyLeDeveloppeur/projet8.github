@@ -1,25 +1,40 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Slide = ({ logement }) => {
   const pictures = logement.pictures;
 
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? pictures.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === pictures.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
   return (
     <div>
       <div className="loge-img">
         <div className="logement-arrow">
-          <span>
+          <button onClick={prevSlide}>
             <i className="fa-solid fa-chevron-up"></i>
-          </span>
-          <span>
+          </button>
+          <button onClick={nextSlide}>
             <i className="fa-solid fa-chevron-right chevron-droite"></i>
-          </span>
+          </button>
         </div>
-        {pictures?.map((pictures, index) => {
-          return (
-            <img src={pictures} alt={pictures.title} key={(pictures, index)} />
-          );
-        })}
-
+        {pictures && pictures.length > 0 && (
+          <img
+            src={pictures[currentIndex]}
+            alt={`Slide ${currentIndex}`}
+            key={currentIndex}
+          />
+        )}
       </div>
     </div>
   );
