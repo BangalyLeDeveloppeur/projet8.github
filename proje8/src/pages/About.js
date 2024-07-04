@@ -4,6 +4,7 @@ import Photapropos from "../components/Photapropos";
 import Footer from "../components/Footer";
 import Collapse from "../components/Collapse";
 const paragrapheFiabilité = (
+  
   <div className="annonce">
   <p>
     Les annonces postées sur kasa garantissent une fiabilité totale. Les photos
