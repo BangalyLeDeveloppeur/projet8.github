@@ -1,10 +1,14 @@
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 2.3em;
+    font-size: 2.6em;
   }
   .gallery {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    a {
+      height: 300px;
+    }
   }
   .navigation {
     ul {
@@ -19,6 +23,10 @@
     }
     img {
       width: 40%;
+    }
+    
+    .logoement-title{
+      font-size: 1.7em;
     }
   }
   .nom {
@@ -46,7 +54,9 @@
       padding: 0;
     }
   }
-
+  .tag_groupe{
+    margin-bottom: 30px;
+  }
   .tag {
     width: 28%;
     padding: 0;
@@ -72,9 +82,11 @@
   }
   .description {
     margin-left: 0;
+    width: 90%;
   }
   .annonce {
     margin-left: 0;
     height: 45px;
   }
+ 
 }

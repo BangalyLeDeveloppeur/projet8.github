@@ -17,13 +17,14 @@ $white: rgb(255, 255, 255);
 }
 
 * {
-  padding: 5px;
+  padding: 0;
   margin: 0;
 }
 
 body {
   background: $white;
   font-family: $font-1;
+  padding: 30px;
   a {
     text-decoration: none;
   }
