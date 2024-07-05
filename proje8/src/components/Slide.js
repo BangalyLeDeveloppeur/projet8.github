@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { useParams } from "react-router-dom";
 
 const Slide = ({ logement }) => {
   const pictures = logement.pictures;
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  // j'utilise userState pour manipiler les elements dans mon tableau//
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? pictures.length - 1 : currentIndex - 1;
@@ -24,6 +24,7 @@ const Slide = ({ logement }) => {
           <button onClick={prevSlide}>
             <i className="fa-solid fa-chevron-up"></i>
           </button>
+
           <button onClick={nextSlide}>
             <i className="fa-solid fa-chevron-right chevron-droite"></i>
           </button>

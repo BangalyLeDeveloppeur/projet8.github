@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Collapse = ({ title, content }) => {
     const [open, setOpen] = useState(false);
-    
+  // collapse pour la fermeture et ouverture au click sur les chevrons//
     const handleChangeOpen = () => {
         setOpen(!open);
     };
