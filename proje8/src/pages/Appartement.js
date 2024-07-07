@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Navigation from "../components/Navigation";
+import { useParams } from "react-router-dom";
 import Logement from "../components/Slide";
 import Logementtitle from "../components/Logementtitle";
 import Tag from "../components/Tag";
 import Logementhost from "../components/Logementhost";
 import LogementDescription from "../components/LogementDescription";
 import appartements from "../data/livres.json";
-import { useParams } from "react-router-dom";
-import Footer from "../components/Footer";
 import Nom from "../components/Nom";
-
-
+console.log(appartements)
 
 const Appartement = () => {
   const { id } = useParams();
@@ -23,14 +20,13 @@ const Appartement = () => {
 
   return (
     <div>
-      <Navigation />
       <Logement logement={appartement} />
       <Logementtitle />
       <Tag />
-      <Nom/>
-      <Logementhost />
-      <LogementDescription logement={appartement} />
-      <Footer />
+      <Nom />
+      <Logementhost note={appartement.rating} /> 
+      
+      <LogementDescription logement={appartement} /*ici je passe a ma prop le contenant dedu fichier json.rating pour afficher le nombre d'étoils disponible dans appartement */ />
     </div>
   );
 };

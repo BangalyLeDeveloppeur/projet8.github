@@ -1,26 +1,15 @@
-import React from "react";
+import React from 'react';
 
-const Logementhost = () => {
+const Logementhost = ({ note }) => {
+  const startArray = [0, 1, 2, 3, 4];
   return (
-    <div>
-      <div className="hsot">
-        
-        <span>
-          <i className="fa-solid fa-star"></i>
-        </span>
-        <span>
-          <i className="fa-solid fa-star"></i>
-        </span>
-        <span>
-          <i className="fa-solid fa-star"></i>
-        </span>
-        <span>
-        <i className="fa-solid fa-star grid"></i>
-        </span>
-        <span>
-        <i className="fa-solid fa-star grid"></i>
-        </span>
-      </div>
+    <div className="host">
+      {startArray.map((start) => (
+        <i
+          key={start}
+          className={`fa-solid fa-star ${start < note ? 'filled' : 'empty'}`}/// ici je verifie le nombre d'etoil de l'appartement avec la methode ternaire
+        ></i>
+      ))}
     </div>
   );
 };

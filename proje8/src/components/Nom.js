@@ -7,6 +7,7 @@ const Nom = () => {
             <h2>Alexandre Dumas</h2>
             <span className="host-cercle"></span>
             </div>
+            
         </div>
     );
 };
