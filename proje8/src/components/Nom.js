@@ -3,7 +3,7 @@ import appartements from "../data/livres.json";
 
 const Nom = () => {
   // Sélectionne le premier appartement dans le fichier JSON
-  const selectedAppartement = appartements[0]; // Utilisation du premier objet du tableau
+  const selectedAppartement = appartements[0]; // U[tilisation du premier objet du tableau
 
   return (
     <div className="nom">

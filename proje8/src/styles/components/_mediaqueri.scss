@@ -33,23 +33,24 @@
     .nom-conteneur {
       height: 62px;
       margin-top: 0;
-      width: 31%;
+      width: 36%;
       .host-cercle {
         width: 45px;
         height: 45px;
         padding: 0;
       }
       h2 {
-        font-size: 0.8em;
+        font-size: 0.9em;
       }
     }
   }
 
-  .hsot {
+  .host {
     display: flex;
     justify-content: left;
-    margin-top: -72px;
-    padding: 0;
+    margin-top: -56px;
+    gap: 2px;
+   
     span {
       padding: 0;
     }
@@ -92,6 +93,13 @@
     .description {
       width: 90%;
       margin-left: 0;
+    }
+  }
+  .nom{
+    img {
+      height: 60px;
+      width: 60px;
+      margin-top: -10px;
     }
   }
 }

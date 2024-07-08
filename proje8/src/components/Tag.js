@@ -1,17 +1,16 @@
 import React from "react";
 
-const Tag = () => {
+const Tag = ({ logement }) => {
+  const selectedTags = logement.tags;
+  console.log(selectedTags)
+
   return (
     <div className="tag_groupe">
-      <div className="tag">
-        <span>Cozy</span>
-      </div>
-      <div className="tag">
-        <span>Canal</span>
-      </div>
-      <div className="tag">
-        <span>Paris 10</span>
-      </div>
+      {selectedTags.map((tag, index) => (
+        <span key={index} className="tag">
+          {tag}
+        </span>
+      ))}
     </div>
   );
 };
