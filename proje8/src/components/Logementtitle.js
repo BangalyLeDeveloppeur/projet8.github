@@ -1,10 +1,13 @@
 import React from "react";
+import appartements from "../data/livres.json";
 
 const Logementtitle = () => {
+  const selectedAppartementTittl = appartements[0]
   return (
     <div className="logement">
-      <h2 className="logoement-title">Cozy loft on the Canal Saint-Martin</h2>
-      <p className="logement-ville">Paris, Île-de-France</p>
+      <h2 className="logoement-title">{selectedAppartementTittl.title}</h2>
+      <p className="logement-ville">{selectedAppartementTittl.location}</p>
+   
     </div>
   );
 };

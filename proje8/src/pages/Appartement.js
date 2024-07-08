@@ -25,8 +25,6 @@ const Appartement = () => {
       <Tag />
       <Nom  />
       <Logementhost note={appartement.rating} /> 
-      
-       
       <LogementDescription logement={appartement} /*ici je passe a ma prop le contenant dedu fichier json.rating pour afficher le nombre d'étoils disponible dans appartement */ />
     </div>
   );
