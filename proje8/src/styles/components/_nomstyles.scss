@@ -4,16 +4,24 @@
   .nom-conteneur {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    padding: 0;
+    gap: 10px;
+    
     margin-top: -135px;
-    width: 18%;
+    width: 15%;
     height: 80px;
   }
 
   h2 {
     color: #FF6060;
-    padding: 0;
+  
   }
   
+  img{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 38px;
+   
+
+}
 }
