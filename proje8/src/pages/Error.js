@@ -1,17 +1,12 @@
-import React from 'react';
-import Navigation from '../components/Navigation';
-import Error from '../components/Error';
-import Footer from '../components/Footer';
+import React from "react";
+import Error from "../components/Error";
 
 const Erreur = () => {
-    return (
-        <div>
-             <Navigation/>
-             <Error/>
-             <Footer/>
-            
-        </div>
-    );
+  return (
+    <div>
+      <Error />
+    </div>
+  );
 };
 
 export default Erreur;
