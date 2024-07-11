@@ -1,4 +1,5 @@
 import React from "react";
+
 import Photapropos from "../components/Photapropos";
 import Collapse from "../components/Collapse";
 

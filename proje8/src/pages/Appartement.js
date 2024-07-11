@@ -19,7 +19,6 @@ const Appartement = () => {
   }, []);
   const selectedLogement = appartements[0];/// je selection le premier element de mon tableaux
 
-
   return (
     <div>
       <Logement logement={appartement} />
