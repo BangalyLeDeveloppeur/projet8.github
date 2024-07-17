@@ -1,15 +1,12 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
-
+import OneCadre from "./OneCadre";
 
 const Cadre = ({ livres }) => {
   return livres.map((Logement) => (
-    <Link to={`/Logement/${Logement.id}`} key={Logement.id}>
-      <img src={Logement.cover} alt={Logement.title} />
-      <h4>{Logement.title}</h4>
-    </Link>
+    <OneCadre key={Logement.id} logement={Logement} />
   ));
 };
+
 Cadre.propTypes = {
   livres: PropTypes.array.isRequired,
 };
