@@ -1,12 +1,10 @@
 import React from "react";
-import appartements from "../data/livres.json";
 
-const Logementtitle = () => {
-  const selectedAppartementTittl = appartements[0]
+const Logementtitle = ({logement}) => {
   return (
     <div className="logement">
-      <h2 className="logoement-title">{selectedAppartementTittl.title}</h2>
-      <p className="logement-ville">{selectedAppartementTittl.location}</p>
+      <h2 className="logoement-title">{logement.title}</h2>
+      <p className="logement-ville">{logement.location}</p>
    
     </div>
   );
