@@ -3,7 +3,7 @@ import OneCadre from "./OneCadre";
 
 const Cadre = ({ livres }) => {
   return livres.map((Logement) => (
-    <OneCadre key={Logement.id} logement={Logement} />
+    <OneCadre key={Logement.id} logemen={Logement} />
   ));
 };
 

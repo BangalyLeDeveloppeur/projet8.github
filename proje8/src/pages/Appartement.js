@@ -1,7 +1,7 @@
 import Slide from "../components/Slide";
-import Logementtitle from "../components/Logementtitle";
+import LogementTitle from "../components/LogementTitle";
 import Tag from "../components/Tag";
-import Logementhost from "../components/Logementhost";
+import LogementHost from "../components/LogementHost";
 import LogementDescription from "../components/LogementDescription";
 import appartements from "../data/livres.json";
 import Nom from "../components/Nom";
@@ -12,14 +12,13 @@ const Appartement = ({ logement }) => {
   return (
     <div>
       <Slide logement={logement} />
-      <Logementtitle logement={logement} />
+      <LogementTitle logement={logement} />
       <Tag logement={logement} />
       <Nom logement={logement} />
-      <Logementhost note={logement.rating} />
+      <LogementHost note={logement.rating}/>
+      
       <LogementDescription
-        logement={
-          logement
-        } /*ici je passe a ma prop le contenant dedu fichier json.rating pour afficher le nombre d'étoils disponible dans appartement */
+        logement={logement} /*ici je passe a ma prop le contenant du fichier json.rating pour afficher le nombre d'étoils disponible dans appartement */
       />
     </div>
   );

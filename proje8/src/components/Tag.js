@@ -2,8 +2,7 @@ import React from "react";
 
 const Tag = ({ logement }) => {
   const selectedTags = logement.tags;
-  console.log(selectedTags)
-
+  //console.log(selectedTags)
   return (
     <div className="tag_groupe">
       {selectedTags.map((tag, index) => (

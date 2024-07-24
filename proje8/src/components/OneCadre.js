@@ -1,13 +1,13 @@
 
 import { Link } from 'react-router-dom'
 
-const OneCadre = ({ logement }) => {
+const OneCadre = ({ logemen }) => {
   return (
     <>
-      {logement && (
-        <Link to={`/Logement/${logement.id}`} key={logement.id}>
-          <img src={logement.cover} alt={logement.title} />
-          <h4>{logement.title}</h4>
+      {logemen && (
+        <Link to={`/Logement/${logemen.id}`} key={logemen.id}>
+          <img src={logemen.cover} alt={logemen.title} />
+          <h4>{logemen.title}</h4>
         </Link>
       )}
     </>

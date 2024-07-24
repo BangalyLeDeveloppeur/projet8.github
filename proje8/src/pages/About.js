@@ -46,7 +46,6 @@ const paragrapheSecurite = (
 const About = () => {
   return (
     <div>
-
       <Photapropos />
       <Collapse title={"Fiabilité"} content={paragrapheFiabilité} />
       <Collapse title={"Respect"} content={paragrapheRespect} />
