@@ -13,11 +13,11 @@
 
       &::after {
         content: "";
-        height: 4px;
+        height: 2px;
         width: 0;
         position: absolute;
         border-radius: 10px;
-        background-color: black;
+        background-color: rgb(141, 136, 136);
         bottom: 0px;
         left: 50%;
         transform: translateX(-50%);

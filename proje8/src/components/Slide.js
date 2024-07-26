@@ -21,13 +21,17 @@ const Slide = ({ logement }) => {
     <div>
       <div className="loge-img">
         <div className="logement-arrow">
-          <button onClick={prevSlide}>
-            <i className="fa-solid fa-chevron-up"></i>
-          </button>
+          {pictures && pictures.length > 1 && (
+            <button onClick={prevSlide}>
+              <i className="fa-solid fa-chevron-up"></i>
+            </button>
+          )}
 
-          <button onClick={nextSlide}>
-            <i className="fa-solid fa-chevron-right chevron-droite"></i>
-          </button>
+          {pictures && pictures.length > 1 && (
+            <button onClick={nextSlide}>
+              <i className="fa-solid fa-chevron-right chevron-droite"></i>
+            </button>
+          )}
         </div>
         {pictures && pictures.length > 1 && (
           <span>

@@ -15,5 +15,5 @@ const LogementWrapper = () => {
     return <Appartement logement={logement} />;
   };
 
-
+  
 export default LogementWrapper;
