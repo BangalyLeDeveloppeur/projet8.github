@@ -1,19 +1,18 @@
+import { Link } from "react-router-dom";
 
-import { Link } from 'react-router-dom'
-
-const OneCadre = ({ logemen }) => {
+const OneCadre = ({ logement }) => {
   return (
     <>
-      {logemen && (
-        <Link to={`/Logement/${logemen.id}`} key={logemen.id}>
-          <img src={logemen.cover} alt={logemen.title} />
-          <h4>{logemen.title}</h4>
+      {logement && (
+        <Link to={`/Logement/${logement.id}`} key={logement.id}>
+          <img src={logement.cover} alt={logement.title} />
+          <h4>{logement.title}</h4>
         </Link>
       )}
     </>
-  )
-}
+  );
+};
 
-export default OneCadre///////////////////////////////////////////////////////////////
+export default OneCadre; 
+
 //////////////////les outils pour faire le site ////////////////
-
