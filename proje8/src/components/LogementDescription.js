@@ -4,12 +4,17 @@ import Collapse from "./Collapse";
 const LogementDescription = ({ logement }) => {
   return (
     <div className="logemen ">
-      <p>Voici le logoment avec id {logement.id} </p>
-      
       <div className="logementDescription">
         <div className="chevron">
           {logement.description && (
-            <Collapse title={"Description"} content={logement.description} />
+            <Collapse
+              title={"Description"}
+              content={
+                <div className="chevron-cadre">
+                  <p>{logement.description}</p>
+                </div>
+              }
+            />
           )}
         </div>
 
@@ -18,11 +23,14 @@ const LogementDescription = ({ logement }) => {
             <Collapse
               title={"Equipement"}
               content={
+                <div className="chevron-cadred">
                 <ul>
                   {logement["equipments"].map((eq) => (
                     <li key={eq}>{eq} </li>
                   ))}
                 </ul>
+                   </div>
+                  
               }
             />
           )}
