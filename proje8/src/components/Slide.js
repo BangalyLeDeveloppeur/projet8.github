@@ -18,7 +18,7 @@ const Slide = ({ logement }) => {
   };
 
   return (
-    <div>
+    
       <div className="loge-img">
         <div className="logement-arrow">
           {pictures && pictures.length > 1 && (
@@ -46,7 +46,6 @@ const Slide = ({ logement }) => {
           />
         )}
       </div>
-    </div>
   );
 };
 

@@ -1,13 +1,14 @@
 .tag_groupe{
     display: flex;
-    gap: 10px;
+    margin: 15px 0;
+    //gap: 10px;
 
 }
 .tag{
-    width: 10%;
-    height: 33px;
+    width: 7%;
+    height: 30px;
     background: rgb(255,96,96);
-    border-radius: 18px;
+    border-radius: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
