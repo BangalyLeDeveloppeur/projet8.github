@@ -9,7 +9,7 @@ const Collapse = ({ title, content }) => {
     };
    
   return (
-    <div>
+    <div className="apropos-descrition">
       <div className="description">
         <h2>{title}</h2>
         <button onClick={() => handleChangeOpen()}>

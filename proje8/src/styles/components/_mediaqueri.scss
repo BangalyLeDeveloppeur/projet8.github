@@ -9,6 +9,19 @@
     flex-direction: column;
     padding: 0;
     margin-bottom: 20px;
+    img  {
+      height: 300px;
+    }
+    a{
+      height: 300px;
+    }
+    p{
+      width: 70%;
+      font-size: 1.2em;
+      margin-top: -70px;
+      
+    }
+  
   }
   .navigation {
     ul {
@@ -100,6 +113,16 @@
       height: 60px;
       width: 60px;
       margin-top: -10px;
+    }
+  }
+  .part {
+    height: 150px;
+    border-radius: 10px;
+    p {
+      font-size: 1.9em;
+      margin-left: 5px;
+      text-align: left;
+      margin-top: 40px;
     }
   }
 }

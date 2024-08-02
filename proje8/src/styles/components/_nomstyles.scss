@@ -1,26 +1,29 @@
 .nom {
   display: flex;
   justify-content: end;
+  align-items: center;
   .nom-conteneur {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     
-    margin-top: -135px;
-    width: 15%;
+    margin-top: -130px;
+    width: 8.5%;
     height: 80px;
   }
 
-  h2 {
+  p {
+   text-align: center;
     color: #FF6060;
   
   }
   
   img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #C4C4C4;
     border-radius: 38px;
+    margin-top: -15px;
    
 
 }

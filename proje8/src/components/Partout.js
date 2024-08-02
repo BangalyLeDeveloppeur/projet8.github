@@ -3,7 +3,7 @@ import React from "react";
 const Partout = () => {
   return (
     <div className="part">
-      <h1>Chez vous, partout et ailleurs</h1>
+      <p>Chez vous, partout et ailleurs</p>
     </div>
   );
 };

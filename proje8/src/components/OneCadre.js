@@ -6,7 +6,7 @@ const OneCadre = ({ logement }) => {
       {logement && (
         <Link to={`/Logement/${logement.id}`} key={logement.id}>
           <img src={logement.cover} alt={logement.title} />
-          <h4>{logement.title}</h4>
+          <p>{logement.title}</p>
         </Link>
       )}
     </>

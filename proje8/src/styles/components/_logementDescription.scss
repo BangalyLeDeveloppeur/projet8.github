@@ -5,27 +5,36 @@
 .logemen {
   margin: 70px 0 0;
   padding: 0;
+
+  .apropos-descrition{
+    padding: 0 ;
+  }
+  
+
 }
 
 .chevron {
   .description {
-    width: 400px;
+    width: 850px;
     margin-left: 0;
     
   }
   .chevron-cadre{
-    width: 29%;
+    width: 89.5%;
     padding: 0 15px 25px 15px;
-    background-color: rgba(226, 224, 222, 0.219);
-    margin-top: -10px;
+    background-color:  rgba(226, 224, 222, 0.219);
+    margin-top: -21px;
 p{
   padding: 18px;
 }
   }
   .chevron-cadred{
-    width: 94%;
+    width: 96.5%;
     padding: 0 15px 25px 15px;
     background-color: rgba(226, 224, 222, 0.219);
-    margin-top: -10px;
+    margin-top: -21px;
+    ul{
+      padding: 18px;
+    }
   }
 }
