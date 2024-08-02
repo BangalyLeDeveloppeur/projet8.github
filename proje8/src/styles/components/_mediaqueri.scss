@@ -9,19 +9,17 @@
     flex-direction: column;
     padding: 0;
     margin-bottom: 20px;
-    img  {
+    img {
       height: 300px;
     }
-    a{
+    a {
       height: 300px;
     }
-    p{
+    p {
       width: 70%;
       font-size: 1.2em;
       margin-top: -70px;
-      
     }
-  
   }
   .navigation {
     ul {
@@ -46,7 +44,7 @@
     .nom-conteneur {
       height: 62px;
       margin-top: 0;
-      width: 36%;
+
       .host-cercle {
         width: 45px;
         height: 45px;
@@ -54,6 +52,9 @@
       }
       h2 {
         font-size: 0.9em;
+      }
+      p {
+        width: 22%;
       }
     }
   }
@@ -63,17 +64,18 @@
     justify-content: left;
     margin-top: -56px;
     gap: 2px;
-   
+
     span {
       padding: 0;
     }
   }
   .tag_groupe {
-    margin-bottom: 30px;
+    margin: 50px 0;
   }
   .tag {
     width: 28%;
     padding: 0;
+    font-size: 0.7em;
 
     span {
       font-size: 0.75em;
@@ -103,12 +105,18 @@
     height: 180px;
   }
   .chevron {
+    .chevron-cadre {
+      width: 93%;
+      p {
+        font-size: 1.1em;
+      }
+    }
     .description {
       width: 90%;
       margin-left: 0;
     }
   }
-  .nom{
+  .nom {
     img {
       height: 60px;
       width: 60px;
@@ -126,10 +134,10 @@
     }
   }
   .loge-img {
-    i{
+    i {
       font-size: 3em;
     }
-    .chevron-droite{
+    .chevron-droite {
       font-size: 3em;
     }
     img {
@@ -138,10 +146,14 @@
       object-fit: cover;
       border-radius: 10px;
     }
-    
   }
-  .logement{
+  .logement {
     margin: 0;
   }
 
+  .footerstyles p {
+    font-size: 0.9em;
+    margin-left: 25%;
+    width: 30%;
   }
+}
