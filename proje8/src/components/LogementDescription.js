@@ -21,7 +21,7 @@ const LogementDescription = ({ logement }) => {
         <div className="chevron">
           {logement.equipments && (
             <Collapse
-              title={"Equipement"}
+              title={"Equipements"}
               content={
                 <div className="chevron-cadred">
                 <ul>

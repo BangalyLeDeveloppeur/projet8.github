@@ -28,7 +28,7 @@ const paragrapheService = (
   <div className="annonce">
     <div className="chevron-cadr">
     <p>
-      Nos services sont disponibles 24/7 pour répondre à toutes vos questions. Nous nous assurons que chaque logement correspond aux standards de qualité établis par nos équipes.
+      La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement de discrimination ou de perturbation du voisinage entraînera une exclusion de notre plateforme.
     </p>
     </div>
   </div>
