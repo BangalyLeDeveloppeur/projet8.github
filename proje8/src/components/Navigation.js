@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       {/* image du log*/}
-      <img src={logo} alt="Image du logo"/>
+      <img src={logo} alt="logo kasa"/>
       <ul>
         <NavLink
           /* Controle de after sur le header*/
