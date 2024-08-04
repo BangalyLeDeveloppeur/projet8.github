@@ -29,6 +29,7 @@ p{
   color: black;
   position: static;
   text-align: left;
+  font-size: 0.6em;
 }
   }
   .chevron-cadred{
@@ -38,6 +39,9 @@ p{
     margin-top: -21px;
     ul{
       padding: 18px;
+      li{
+        font-size: 0.6em;
+      }
     }
   }
 }
